@@ -1,0 +1,15 @@
+{
+    "collectionName": "components_setting_language_menus",
+    "info": {
+        "displayName": "Language Menu"
+    },
+    "options": {},
+    "attributes": {
+        "name": {
+            "type": "string"
+        },
+        "value": {
+            "type": "string"
+        }
+    }
+}

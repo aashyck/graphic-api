@@ -1,0 +1,15 @@
+{
+    "collectionName": "components_setting_menus",
+    "info": {
+        "displayName": "Menu"
+    },
+    "options": {},
+    "attributes": {
+        "name": {
+            "type": "string"
+        },
+        "path": {
+            "type": "string"
+        }
+    }
+}
