@@ -4,7 +4,8 @@
     "info": {
         "singularName": "blog",
         "pluralName": "blogs",
-        "displayName": "Blog"
+        "displayName": "Blog",
+        "description": ""
     },
     "options": {
         "draftAndPublish": true
@@ -22,14 +23,33 @@
             "type": "text"
         },
         "thumbnail": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
             "allowedTypes": [
                 "images"
-            ],
-            "type": "media",
-            "multiple": false
+            ]
         },
         "body": {
             "type": "richtext"
+        },
+        "blog_categories": {
+            "type": "relation",
+            "relation": "manyToMany",
+            "target": "api::blog-category.blog-category",
+            "inversedBy": "blogs"
+        },
+        "author": {
+            "type": "relation",
+            "relation": "manyToOne",
+            "target": "plugin::users-permissions.user",
+            "inversedBy": "blogs"
+        },
+        "openGraph": {
+            "displayName": "SEO",
+            "type": "component",
+            "repeatable": false,
+            "component": "setting.seo"
         }
     }
 }

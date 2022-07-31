@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_setting_images",
+  "info": {
+    "displayName": "Images"
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "alt": {
+      "type": "string"
+    }
+  }
+}

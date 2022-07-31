@@ -1,0 +1,25 @@
+{
+    "collectionName": "components_setting_seos",
+    "info": {
+        "displayName": "SEO"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "images": {
+            "type": "boolean",
+            "default": false
+        },
+        "seoimages": {
+            "displayName": "Images",
+            "type": "component",
+            "repeatable": false,
+            "component": "setting.images"
+        }
+    }
+}
