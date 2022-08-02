@@ -24,6 +24,11 @@
       "type": "component",
       "repeatable": false,
       "component": "service.banner"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": false,
+      "component": "feature.feature"
     }
   }
 }

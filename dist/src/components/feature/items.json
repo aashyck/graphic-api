@@ -1,0 +1,28 @@
+{
+    "collectionName": "components_feature_items",
+    "info": {
+        "displayName": "items"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "color": {
+            "type": "string"
+        },
+        "icon": {
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ],
+            "type": "media",
+            "multiple": true
+        }
+    }
+}
